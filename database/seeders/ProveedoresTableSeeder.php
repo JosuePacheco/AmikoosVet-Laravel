@@ -6,7 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class UsersTableSeeder extends Seeder
+class ProveedoresTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,15 +15,13 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert([
+        DB::table('proveedores')->insert([
             [
-                 'name' => 'Brisa Ortiz'
-                ,'codigopostal' => '50100'
+                 'nombre' => 'AmikoosVet'
+                ,'codigopostal' => '50200'
                 ,'direccion' => 'Miguel Hidalgo, sn, Lerma'
-                ,'telefono' => '722343546'
-                ,'nickname' => 'Brisa'
-                , 'email' => 'brisa.ortiz@gmail.com'
-                , 'password' => bcrypt('12345678')
+                ,'telefono' => '7247864734'
+                ,'email' => 'amikoos.vet@gmail.com'
             ]
         ]);
     }

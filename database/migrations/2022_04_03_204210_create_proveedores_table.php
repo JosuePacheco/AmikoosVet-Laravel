@@ -13,11 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('proovedores', function (Blueprint $table) {
+        Schema::create('proveedores', function (Blueprint $table) {
             $table->mediumIncrements('id')->comment('ID');
             $table->string('nombre', 100);
             $table->string('codigopostal');
-            $table->string('direcciones');
+            $table->string('direccion');
             $table->string('telefono');
             $table->string('email')->unique();
         });

@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('marca', 100);
             $table->decimal('precio', 10,2);
             $table->decimal('stock', 10,2);
-            $table->foreign('proveedor_id')->references('id')->on('proovedores');
+            $table->foreign('proveedor_id')->references('id')->on('proveedores');
         });
     }
 
