@@ -1,0 +1,37 @@
+### Obtener ventas
+GET http://127.0.0.1:8000/api/ventas
+Accept: application/json
+Authorization: Bearer 3|KvETwCfC2BcdMhhLOVr042PWfgTNPZJWWhsDkHsb
+
+### Obtener una venta
+GET http://127.0.0.1:8000/api/ventas/1
+Accept: application/json
+Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+
+### Crear una venta
+POST http://127.0.0.1:8000/api/ventas
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+
+{
+    "usuario_id":1
+    ,"producto_id":1
+    ,"fecha":"03-04-2022"
+    ,"monto":300
+    ,"estado_pago":"Pagado"
+}
+
+### Editar venta
+PUT http://127.0.0.1:8000/api/ventas/1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+
+{
+    "usuario_id":1
+    ,"producto_id":1
+    ,"fecha":"03-04-2022"
+    ,"monto":300
+    ,"estado_pago":"Pagado"
+}

@@ -1,0 +1,37 @@
+### Obtener proveedores
+GET http://127.0.0.1:8000/api/proveedores
+Accept: application/json
+Authorization: Bearer 3|KvETwCfC2BcdMhhLOVr042PWfgTNPZJWWhsDkHsb
+
+### Obtener un proveedor
+GET http://127.0.0.1:8000/api/proveedores/1
+Accept: application/json
+Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+
+### Crear un proveedor
+POST http://127.0.0.1:8000/api/proveedores
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+
+{
+    "nombre":"Aldo Vara"
+    ,"codigopostal":"50350"
+    ,"direccion":"Jose Maria Morelos y Pavon, sn, Lerma"
+    ,"telefono":"7234567990"
+    ,"email":"aldo.vara@gmail.com"
+}
+
+### Editar proveedor
+PUT http://127.0.0.1:8000/api/proveedores/1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+
+{
+    "nombre":"Aldo Vara"
+    ,"codigopostal":"50350"
+    ,"direccion":"Jose Maria Morelos y Pavon, sn, Lerma"
+    ,"telefono":"7234567990"
+    ,"email":"aldo.vara@gmail.com"
+}

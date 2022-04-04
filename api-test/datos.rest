@@ -1,0 +1,33 @@
+### Obtener datos
+GET http://127.0.0.1:8000/api/datos
+Accept: application/json
+Authorization: Bearer 3|KvETwCfC2BcdMhhLOVr042PWfgTNPZJWWhsDkHsb
+
+### Obtener una dato
+GET http://127.0.0.1:8000/api/datos/1
+Accept: application/json
+Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+
+### Crear una dato
+POST http://127.0.0.1:8000/api/datos
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 3|KvETwCfC2BcdMhhLOVr042PWfgTNPZJWWhsDkHsb
+
+{
+    "venta_id":1
+    ,"cantidad":1
+    ,"total":300
+}
+
+### Editar dato
+PUT http://127.0.0.1:8000/api/datos/1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+
+{
+    "venta_id":1
+    ,"cantidad":1
+    ,"total":300
+}
