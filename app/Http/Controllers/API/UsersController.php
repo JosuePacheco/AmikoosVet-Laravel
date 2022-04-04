@@ -50,7 +50,7 @@ class UsersController extends Controller
      */
     public function show($id)
     {
-        return new UserrResource(User::findOrFail($id));
+        return new UserResource(User::findOrFail($id));
     }
 
     /**
