@@ -23,5 +23,4 @@ class ProveedorResource extends JsonResource
             , 'email' => $this->email
         ];
     }
-    }
 }

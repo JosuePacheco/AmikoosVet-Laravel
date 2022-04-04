@@ -1,7 +1,7 @@
 ### Obtener proveedores
 GET http://127.0.0.1:8000/api/proveedores
 Accept: application/json
-Authorization: Bearer 3|KvETwCfC2BcdMhhLOVr042PWfgTNPZJWWhsDkHsb
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 ### Obtener un proveedor
 GET http://127.0.0.1:8000/api/proveedores/1
