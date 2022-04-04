@@ -16,7 +16,7 @@ class UsersController extends Controller
      */
     public function index()
     {
-        return UserrResource::collection(User::all());
+        return UserResource::collection(User::all());
     }
 
     /**

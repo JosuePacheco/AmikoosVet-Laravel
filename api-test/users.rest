@@ -1,0 +1,41 @@
+### Obtener users
+GET http://127.0.0.1:8000/api/users
+Accept: application/json
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
+
+### Obtener un user
+GET http://127.0.0.1:8000/api/users/1
+Accept: application/json
+Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+
+### Crear un user
+POST http://127.0.0.1:8000/api/users
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
+
+{
+    "nombre":"Aldo Vara"
+    ,"codigopostal":"50350"
+    ,"direccion":"Jose Maria Morelos y Pavon, sn, Lerma"
+    ,"telefono":"7234567990"
+    ,"nickname":"Aldo"
+    ,"email":"aldo.vara@gmail.com"
+    ,"password":"12345678"
+}
+
+### Editar user
+PUT http://127.0.0.1:8000/api/users/1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+
+{
+    "nombre":"Aldo Vara"
+    ,"codigopostal":"50350"
+    ,"direccion":"Jose Maria Morelos y Pavon, sn, Lerma"
+    ,"telefono":"7234567990"
+    ,"nickname":"Aldo"
+    ,"email":"aldo.vara@gmail.com"
+    ,"password":"12345678"
+}

@@ -6,6 +6,7 @@ use App\Http\Controllers\API\ProveedoresController;
 use App\Http\Controllers\API\ProductosController;
 use App\Http\Controllers\API\VentasController;
 use App\Http\Controllers\API\DatosController;
+use App\Http\Controllers\API\UsersController;
 use App\Models\User;
 
 /*
@@ -22,6 +23,7 @@ use App\Models\User;
 Route::middleware('auth:sanctum')->group(function () {
 
     Route::APIresource('proveedores', ProveedoresController::class)->names('api-proveedores');
+    Route::APIresource('users', UsersController::class)->names('api-users');
     Route::APIresource('productos', ProductosController::class)->names('api-productos');
     Route::APIresource('ventas', VentasController::class)->names('api-ventas');
     Route::APIresource('datos', DatosController::class)->names('api-datos');
