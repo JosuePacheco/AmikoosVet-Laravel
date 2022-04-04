@@ -39,7 +39,14 @@ class VentasController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $venta = new Venta();
+        $venta->usuario_id = $request->usuario_id;
+        $venta->producto_id = $request->producto_id;
+        $venta->fecha = $request->fecha;
+        $venta->monto = $request->monto;
+        $venta->estado_pago = $request->estado_pago;
+
+        $venta->save();
     }
 
     /**

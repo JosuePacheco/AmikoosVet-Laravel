@@ -15,7 +15,7 @@ Content-Type: application/json
 Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 {
-    "nombre":"Aldo Vara"
+    "name":"Aldo Vara"
     ,"codigopostal":"50350"
     ,"direccion":"Jose Maria Morelos y Pavon, sn, Lerma"
     ,"telefono":"7234567990"
@@ -31,7 +31,7 @@ Content-Type: application/json
 Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
 
 {
-    "nombre":"Aldo Vara"
+    "name":"Aldo Vara"
     ,"codigopostal":"50350"
     ,"direccion":"Jose Maria Morelos y Pavon, sn, Lerma"
     ,"telefono":"7234567990"

@@ -1,18 +1,18 @@
 ### Obtener productos
 GET http://127.0.0.1:8000/api/productos
 Accept: application/json
-Authorization: Bearer 3|KvETwCfC2BcdMhhLOVr042PWfgTNPZJWWhsDkHsb
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 ### Obtener un producto
 GET http://127.0.0.1:8000/api/productos/1
 Accept: application/json
-Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 ### Crear un producto
 POST http://127.0.0.1:8000/api/productos
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 {
     "proveedor_id":1
@@ -26,7 +26,7 @@ Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
 PUT http://127.0.0.1:8000/api/productos/1
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 {
     "proveedor_id":1

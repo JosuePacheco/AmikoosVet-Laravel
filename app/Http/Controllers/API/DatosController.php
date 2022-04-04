@@ -39,7 +39,12 @@ class DatosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $dato = new Dato();
+        $dato->venta_id = $request->venta_id;
+        $dato->cantidad = $request->cantidad;
+        $dato->total = $request->total;
+
+        $dato->save();
     }
 
     /**

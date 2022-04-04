@@ -39,7 +39,14 @@ class ProductosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $producto = new Producto();
+        $producto->proveedor_id = $request->proveedor_id;
+        $producto->producto = $request->producto;
+        $producto->marca = $request->marca;
+        $producto->precio = $request->precio;
+        $producto->stock = $request->stock;
+
+        $producto->save();
     }
 
     /**

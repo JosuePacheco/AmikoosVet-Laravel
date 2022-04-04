@@ -39,7 +39,14 @@ class ProveedoresController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $proveedor = new Proveedor();
+        $proveedor->nombre = $request->nombre;
+        $proveedor->codigopostal = $request->codigopostal;
+        $proveedor->direccion = $request->direccion;
+        $proveedor->telefono = $request->telefono;
+        $proveedor->email = $request->email;
+
+        $proveedor->save();
     }
 
     /**

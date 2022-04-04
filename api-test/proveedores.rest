@@ -6,13 +6,13 @@ Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 ### Obtener un proveedor
 GET http://127.0.0.1:8000/api/proveedores/1
 Accept: application/json
-Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 ### Crear un proveedor
 POST http://127.0.0.1:8000/api/proveedores
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 {
     "nombre":"Aldo Vara"
@@ -26,7 +26,7 @@ Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
 PUT http://127.0.0.1:8000/api/proveedores/1
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 {
     "nombre":"Aldo Vara"

@@ -1,18 +1,18 @@
 ### Obtener datos
 GET http://127.0.0.1:8000/api/datos
 Accept: application/json
-Authorization: Bearer 4|vwkw3VoeBuB7fdZOyZnhVnGBTIuaSSh2eDgWEVdK
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 ### Obtener una dato
 GET http://127.0.0.1:8000/api/datos/1
 Accept: application/json
-Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 ### Crear una dato
 POST http://127.0.0.1:8000/api/datos
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 3|KvETwCfC2BcdMhhLOVr042PWfgTNPZJWWhsDkHsb
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 {
     "venta_id":1
@@ -24,7 +24,7 @@ Authorization: Bearer 3|KvETwCfC2BcdMhhLOVr042PWfgTNPZJWWhsDkHsb
 PUT http://127.0.0.1:8000/api/datos/1
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer 2|LG5cKX019hQ1uEy70fNyUcToB5twSRbatpEjSB3K
+Authorization: Bearer 5|FSodKx4aK95IyKU9rWrjwB44F2NBv8XQ3qfkicAo
 
 {
     "venta_id":1
