@@ -24,4 +24,9 @@ trait apiResponser
     return $this->successResponse(['data'=> $instance], $code);
   }
 
+  protected function showMessage($message, $code = 204)
+    {
+        return $this->successResponse(['message' => $message], $code);
+    }
+
 }
