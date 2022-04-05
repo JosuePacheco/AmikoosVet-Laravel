@@ -56,3 +56,5 @@ Route::post('/sanctum/token', function (Request $request) {
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// vista pagina Route::resource('categories','Api\ApicategoriesController',['except' => ['create', 'edit']]);
