@@ -8,7 +8,7 @@ use App\Http\Resources\DatoResource;
 use App\Models\Dato;
 use App\Http\Controllers\ApiController;
 
-class DatosController extends Controller
+class DatosController extends ApiController
 {
     /**
      * Display a listing of the resource.

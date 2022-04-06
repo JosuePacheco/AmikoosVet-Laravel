@@ -6,8 +6,9 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Resources\ProveedorResource;
 use App\Models\Proveedor;
+use App\Http\Controllers\ApiController;
 
-class ProveedoresController extends Controller
+class ProveedoresController extends ApiController
 {
     /**
      * Display a listing of the resource.

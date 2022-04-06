@@ -6,8 +6,9 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Resources\VentaResource;
 use App\Models\Venta;
+use App\Http\Controllers\ApiController;
 
-class VentasController extends Controller
+class VentasController extends ApiController
 {
     /**
      * Display a listing of the resource.
