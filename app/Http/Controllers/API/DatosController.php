@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Resources\DatoResource;
 use App\Models\Dato;
+use App\Http\Controllers\ApiController;
 
 class DatosController extends Controller
 {
