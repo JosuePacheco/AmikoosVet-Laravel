@@ -9,9 +9,15 @@ class VerifyCsrfToken extends Middleware
     /**
      * The URIs that should be excluded from CSRF verification.
      *
-     * @var array<int, string>
+     * @var bool
      */
+    protected $addHttpCookie = true;
+
     protected $except = [
         //
+    'auth/facebook/callback',
+    'auth/google/callback',
+    'http://127.0.0.1:8000/',
+    'http://127.0.0.1:8000/api'
     ];
 }
