@@ -51,7 +51,6 @@ class Handler extends ExceptionHandler
             //
         });
     }
-
     public function render($request, Throwable $exception)
     {
         $response = $this->handleException($request, $exception);
